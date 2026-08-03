@@ -28,7 +28,8 @@ spec:
 
           env:
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://mysql:3306/employeedb
+             # value: jdbc:mysql://mysql:3306/employeedb
+              value: jdbc:mysql://mysql-invalid:3306/employeedb
 
             - name: SPRING_DATASOURCE_USERNAME
               value: root
